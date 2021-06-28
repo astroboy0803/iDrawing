@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		787E17E126895E6D0020AAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E17E026895E6D0020AAD3 /* AppDelegate.swift */; };
-		787E17E326895E6D0020AAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E17E226895E6D0020AAD3 /* SceneDelegate.swift */; };
 		787E17E526895E6D0020AAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E17E426895E6D0020AAD3 /* ViewController.swift */; };
 		787E17E826895E6D0020AAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787E17E626895E6D0020AAD3 /* Main.storyboard */; };
 		787E17EA26895E6E0020AAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787E17E926895E6E0020AAD3 /* Assets.xcassets */; };
 		787E17ED26895E6E0020AAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787E17EB26895E6E0020AAD3 /* LaunchScreen.storyboard */; };
+		787E17F526895F480020AAD3 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787E17F426895F480020AAD3 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		787E17DD26895E6D0020AAD3 /* iDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787E17E026895E6D0020AAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		787E17E226895E6D0020AAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		787E17E426895E6D0020AAD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		787E17E726895E6D0020AAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		787E17E926895E6E0020AAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		787E17EC26895E6E0020AAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		787E17EE26895E6E0020AAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787E17F426895F480020AAD3 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				787E17E026895E6D0020AAD3 /* AppDelegate.swift */,
-				787E17E226895E6D0020AAD3 /* SceneDelegate.swift */,
 				787E17E426895E6D0020AAD3 /* ViewController.swift */,
 				787E17E626895E6D0020AAD3 /* Main.storyboard */,
 				787E17E926895E6E0020AAD3 /* Assets.xcassets */,
 				787E17EB26895E6E0020AAD3 /* LaunchScreen.storyboard */,
 				787E17EE26895E6E0020AAD3 /* Info.plist */,
+				787E17F426895F480020AAD3 /* CircleView.swift */,
 			);
 			path = iDrawing;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787E17F526895F480020AAD3 /* CircleView.swift in Sources */,
 				787E17E526895E6D0020AAD3 /* ViewController.swift in Sources */,
 				787E17E126895E6D0020AAD3 /* AppDelegate.swift in Sources */,
-				787E17E326895E6D0020AAD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
