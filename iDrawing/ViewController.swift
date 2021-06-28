@@ -39,6 +39,10 @@ class ViewController: UIViewController {
 //        }
     }
     
+    @IBAction private func doPress(_ sender: UIButton) {
+        print("press....")
+    }
+    
     private func run() {
         let segment = 10000
         let basePercent = CGFloat(1)/CGFloat(segment)

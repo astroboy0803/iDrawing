@@ -92,6 +92,7 @@ public final class CircleView: UIView {
     
     // MARK: 顯示
     final func show(percent: CGFloat) {
+        self.superview?.isUserInteractionEnabled = false
         self.isHidden = false
         let endAngle = .pi * 2 * percent
         let minEdge = min(self.drawView.frame.width, self.drawView.frame.height)
@@ -114,6 +115,7 @@ public final class CircleView: UIView {
     
     // MARK: 隱藏
     final func hide() {
+        self.superview?.isUserInteractionEnabled = true
         self.isHidden = true
     }
 }
